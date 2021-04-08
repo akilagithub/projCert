@@ -1,4 +1,4 @@
-FROM devopsedu/webapp
+FROM centos
 
 MAINTAINER Akila <akila4@gmail.com>
 
