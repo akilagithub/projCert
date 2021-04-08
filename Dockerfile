@@ -7,7 +7,7 @@ MAINTAINER Akila <akila4@gmail.com>
 RUN yum install -y httpd
 
 #Install PHP Modules
-RUN yum-config-manager --enable remi-php73
+
 RUN yum install php php-common php-opcache php-mcrypt php-cli php-gd php-curl php-mysqlnd
 
 
